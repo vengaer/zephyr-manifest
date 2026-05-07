@@ -1,0 +1,41 @@
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+    - name: vengaer
+      url-base: https://github.com/vengaer
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v4.4.0
+      clone-depth: 5000
+      import:
+        name-allowlist:
+          - acpica
+          - cmsis
+          - cmsis-dsp
+          - cmsis-nn
+          - cmsis_6
+          - edtt
+          - hal_st
+          - hal_stm32
+          - hostap
+          - liblc3
+          - mbedtls
+          - mbedtls-3.6
+          - mcuboot
+          - mipi-sys-t
+          - net-tools
+          - open-amp
+          - openthread
+          - picolibc
+          - psa-arch-tests
+          - segger
+          - tf-m-tests
+          - tf-psa-crypto
+          - trusted-firmware-a
+          - trusted-firmware-m
+          - zcbor
+    - name: zrpc
+      remote: vengaer
+      clone-depth: 5000
