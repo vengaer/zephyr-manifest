@@ -21,6 +21,7 @@ manifest:
           - hal_stm32
           - hostap
           - liblc3
+          - libmetal
           - mbedtls
           - mbedtls-3.6
           - mcuboot
