@@ -40,3 +40,5 @@ manifest:
     - name: zrpc
       remote: vengaer
       clone-depth: 5000
+    - name: zbloom
+      remote: vengaer
