@@ -42,3 +42,6 @@ manifest:
       clone-depth: 5000
     - name: zbloom
       remote: vengaer
+    - name: zerps
+      remote: vengaer
+      repo-path: z-itu-t-g.8032
